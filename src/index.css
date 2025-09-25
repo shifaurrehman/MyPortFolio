@@ -23,3 +23,30 @@ html {
     clip-path: polygon(0 0, 100% 0, 100% 98%, 70% 95%, 0 100%);
   }
 }
+
+/* Entire scrollbar area */
+::-webkit-scrollbar {
+  width: 12px;      /* vertical scrollbar */
+  height: 12px;     /* horizontal scrollbar */
+}
+
+/* The draggable thumb (indicator) */
+::-webkit-scrollbar-thumb {
+  background: #8b5cf6; /* your color */
+  border-radius: 10px; /* round edges */
+}
+
+/* Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
+}
+
+/* The track (background of scrollbar) */
+::-webkit-scrollbar-track {
+  background: #1f1f1f; /* dark track */
+}
+
+/* Track when corner is shown (like bottom-right corner) */
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
